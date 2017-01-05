@@ -1,0 +1,213 @@
+{
+    "cfgSettings": {
+        "general": {
+            "site": [
+                {
+                    "site_status": null,
+                    "site_zip": "08058",
+                    "user_key": 684,
+                    "acct_key": 1127,
+                    "site_wblead": "324324244",
+                    "site_region": "NE",
+                    "salesforce_id": "Alanta",
+                    "site_inhour": null,
+                    "sameaddress": 0,
+                    "site_disable": 0,
+                    "site_move_order": 1,
+                    "site_hybrid_number": null,
+                    "site_macd": "",
+                    "site_address1": "1082 Prospect",
+                    "site_address2": "1082 Prospect Apt # 23",
+                    "site_createdt": "2012-10-15 16:20:51.0",
+                    "site_shortname": "xyzlmnop123",
+                    "site_address3": "1082 Prospect Apt # 34",
+                    "site_longname": "xyzlmnop124",
+                    "site_timezone": "-6-Central-Time",
+                    "site_emailok": "1",
+                    "site_city": "Maine",
+                    "site_csg_dst_number": "",
+                    "site_state": "KS",
+                    "site_system": "182",
+                    "site_id": 1155,
+                    "site_service": null,
+                    "site_outhour": null,
+                    "site_clarity_number": "",
+                    "site_type": null,
+                    "acct_id": 1127,
+                    "site_equipment": null,
+                    "site_hoursofoperation": "9-6 m-f",
+                    "site_is_macd": 1
+                }
+            ],
+            "global_data": [
+                {
+                    "region": "1",
+                    "cid_passthrough": 0,
+                    "transport_medium": "6",
+                    "iad_mac": "000000000000",
+                    "status": 2,
+                    "sur_ip_address": "",
+                    "fullpri": null,
+                    "site_id": 1155,
+                    "device_id": 10835,
+                    "fracpri": null,
+                    "ccid": 0,
+                    "number_pris": 1,
+                    "equipment_type": "5",
+                    "config_global": 6131,
+                    "clock_source": "8",
+                    "ccom_quote_id": null,
+                    "radius": true
+                }
+            ],
+            "pris": [
+                {
+                    "digits_transfered": "15",
+                    "linecode": "11",
+                    "framing": "9",
+                    "name_delivery": "22",
+                    "switch_type": "26",
+                    "config_pri": 18296,
+                    "num_ds0": 23,
+                    "site_id": 1155,
+                    "device_id": 10835,
+                    "pri_num": 8,
+                    "resource_selection": "21",
+                    "port_num": "51"
+                }
+            ],
+            "accountContacts": [
+                {
+                    "contact_pager": null,
+                    "contact_address2": null,
+                    "contact_email": "jane@Doe.com",
+                    "contact_address1": null,
+                    "contact_extension": "873",
+                    "contact_desk": null,
+                    "contact_address3": null,
+                    "contact_phone": "3937397753",
+                    "contact_title": null,
+                    "contact_note": "1",
+                    "contact_key": 590,
+                    "contact_primary": null,
+                    "contact_city": null,
+                    "contact_zip": null,
+                    "contact_state": null,
+                    "contact_mobile": "7209473473",
+                    "contact_name": "Jane Doe",
+                    "acct_id": 1127,
+                    "contact_fieldid": null
+                }
+
+            ]
+        },
+        "network": {
+            "eth": [
+                {
+                    "ip_address": "121.123.122.111",
+                    "site_id": 1155,
+                    "device_id": 10835,
+                    "netmask": "255.255.255.252",
+                    "port_num": null,
+                    "config_eth": 4430
+                }
+
+            ]
+        },
+        "voice": {
+            "aniList": [
+                {
+                    "ani_start": "2343424243",
+                    "ani_end": ""
+                },
+                {
+                    "ani_start": "5454243434",
+                    "ani_end": "5454243437"
+                },
+                {
+                    "ani_start": "1221212121",
+                    "ani_end": "1221212126"
+                }
+            ],
+            "trunks": [
+                {
+                    "direction": 44,
+                    "wtns": [
+                        "2343424243 - ",
+                        "5454243434 - 5454243437"
+                    ],
+                    "inboundcallingname": "yes",
+                    "enable_cid_override": 0,
+                    "natives_pending": "",
+                    "dtodestination": "",
+                    "tn_count": "5",
+                    "calleridlastname": "",
+                    "sip_ua_registrar": "36",
+                    "password": "74837483heheiw3",
+                    "trunkcustomname": "test trunk 1",
+                    "intlld": 45,
+                    "disable_911_override": "yes",
+                    "inbound3rdpartyblock": "yes",
+                    "btn": "3487384738",
+                    "tg_num": 1,
+                    "e911_override_active": 1,
+                    "outboundcalleridnum": "Comcast WTN",
+                    "inboundcollectblock": "yes",
+                    "account_number": "1127",
+                    "calleriddisplayname": "Jane Doe",
+                    "channels": 0,
+                    "did": "no",
+                    "destunavail": "",
+                    "site_id": 1155,
+                    "device_id": 10834,
+                    "calleridfirstname": "",
+                    "config_tg": 11511,
+                    "trunkgroupname": "t01",
+                    "port_map": "1,2",
+                    "dtotype": "",
+                    "dod": "yes",
+                    "as0": 12
+                },
+                {
+                    "direction": 44,
+                    "wtns": [
+                        "1221212121 - 1221212126"
+                    ],
+                    "inboundcallingname": "yes",
+                    "enable_cid_override": 0,
+                    "natives_pending": "",
+                    "dtodestination": "",
+                    "tn_count": "6",
+                    "calleridlastname": "",
+                    "sip_ua_registrar": "36",
+                    "password": "38473748374387438473",
+                    "trunkcustomname": "test trunk 2",
+                    "intlld": 45,
+                    "disable_911_override": "yes",
+                    "inbound3rdpartyblock": "yes",
+                    "btn": "8748374837",
+                    "tg_num": 2,
+                    "e911_override_active": 0,
+                    "outboundcalleridnum": "Comcast WTN",
+                    "inboundcollectblock": "yes",
+                    "account_number": "1127",
+                    "calleriddisplayname": "",
+                    "channels": 32,
+                    "did": "yes",
+                    "destunavail": "",
+                    "site_id": 1155,
+                    "device_id": 10834,
+                    "calleridfirstname": "",
+                    "config_tg": 22197,
+                    "trunkgroupname": "t02",
+                    "port_map": "3,4,5,6,7,8",
+                    "dtotype": "",
+                    "dod": "yes",
+                    "as0": 12
+                }
+            ]
+        }
+    },
+    "dataset": 3,
+    "success": true
+}
